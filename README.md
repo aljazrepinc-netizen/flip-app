@@ -1,14 +1,11 @@
-# Flip App – Price Compare & ROI
+# Flip App – Streamlit + CLI
 
-Deploy on **Streamlit Community Cloud**:
+## Deploy on Streamlit Cloud
+1. Upload `flip_app.py` and `requirements.txt` to your GitHub repo.
+2. Go to https://share.streamlit.io/new → Deploy from GitHub.
+3. Select your repo, set **Main file path** = `flip_app.py`, then Deploy.
 
-1. Create a public GitHub repo and add two files:
-   - `flip_app.py` (this app)
-   - `requirements.txt` (see below)
-2. Go to https://share.streamlit.io/new → *Deploy a public app from GitHub*.
-3. Select your repo and set **Main file path** to `flip_app.py` → Deploy.
-
-## requirements.txt
+## Requirements
 ```
 streamlit>=1.36
 requests>=2.31
